@@ -1,0 +1,296 @@
+body {
+    background-color: #eeee;
+    overflow-x: hidden;
+}
+
+
+/*background  satarts here*/
+
+#bg-img {
+    background: url("../img/bgGym.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    /*background image goes here*/
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+}
+
+#home-page {
+    position: absolute;
+    /*  background text goes here*/
+    top: 32.5%;
+    left: 5px;
+    width: 100%;
+}
+
+
+/*background ends here*/
+
+
+/*Navbar starts here*/
+
+#navbarNav>ul li a {
+    padding: 0px 25px;
+    /*navbar ul li a goes here*/
+    margin: 8px 10px;
+    color: #e4f1fe;
+}
+
+#navbarNav>ul li a:hover {
+    color: #def2;
+    /*navbar hover effects here*/
+}
+
+.navbar-brand {
+    padding: 0px 125px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+
+/*Navbar ends here*/
+
+
+/*About starts here */
+
+#About,
+h2 {
+    text-align: center;
+    /* About headings */
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+#About .lead {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* About lead paraphares */
+    margin-top: 8px;
+    font-family: 'popines';
+    display: inline-block;
+    border-left: 2px solid red;
+}
+
+.featurette-image {
+    width: 80%;
+    height: 200px;
+    /* About Image */
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.featurette-image:hover {
+    opacity: 0.75;
+    transition: .3s ease-in-out;
+    /* About Image hover */
+    transition: .3s ease-in-out;
+}
+
+.text-center {
+    margin-top: 15px;
+    color: tomato;
+}
+
+.row {
+    margin-top: 50px;
+    /* About row goes here */
+}
+
+.lead {
+    text-align: center;
+    /* About paragraphes */
+    line-height: 1.2;
+}
+
+
+/*About ends here */
+
+
+/*Our Team Starts here*/
+
+#Team .col-md-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Team h2 {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#Team.col-md-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#Team img {
+    border-radius: 50%;
+}
+
+
+/*our Team Ends here*/
+
+
+/*footer starts here*/
+
+.footer-copyright {
+    margin-top: 05px;
+    color: #ffff;
+    margin-right: 10px;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: #333;
+    padding: 8px 12px;
+}
+
+
+/*footer ends here*/
+
+
+/*content from satarts here*/
+
+#from {
+    margin-top: 40px;
+}
+
+.form-group {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    /*content from-groups*/
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 150px;
+    /*content from btn here*/
+    padding: 0 30px;
+    margin-left: 60px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn:hover {
+    /*content from btn hover here*/
+    background: #e33;
+    transform: rotate(360deg);
+}
+
+#from {
+    position: relative;
+    width: 100%;
+    background: url("../img/pexels-photo-592753.jpeg");
+    /*content from background image here*/
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    opacity: 0.8
+}
+
+
+/*content from satarts here*/
+
+
+/*medai query goes here*/
+
+
+/*meiad query for media screen starts here */
+
+@media (max-width:992px) {
+    #About .lead {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-family: 'popines';
+        margin-top: 10px;
+    }
+    .featurette-image {
+        width: 90%;
+        height: 200px;
+        /* About Image */
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+}
+
+
+/*meiad query for media screen ends here*/
+
+
+/*meiad query for Tablet screen starts here*/
+
+@media (max-width:768px) {
+    #About,
+    h2 {
+        text-align: center;
+        line-height: 1;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    #About .lead {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 8px;
+        font-family: 'popines';
+        margin-top: 8px;
+    }
+}
+
+
+/*meiad query for Tablet screen ends here*/
+
+
+/*meiad query for Moblie screen starts here*/
+
+@media (max-width: 500px) {
+    #About,
+    h2 {
+        text-align: center;
+        line-height: 1;
+        font-size: 21px;
+        margin-top: 13px;
+        margin-bottom: 9px;
+    }
+    #About .lead {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 8px;
+        font-family: 'popines';
+    }
+    .form-group {
+        position: relative;
+        width: 250px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    #from {
+        position: relative;
+        width: 100%;
+        background: url("../img/pexels-photo-592753.jpeg");
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+    }
+    .navbar-brand {
+        padding: 0px 20px;
+    }
+    #navbarNav>ul li a {
+        padding: -10px 12px;
+        margin: 6px 7px;
+        color: #e4f1fe;
+        font-family: 'popines';
+    }
+}
+
+
+/*meiad query for Moblie screen ends here*/
